@@ -1,0 +1,79 @@
+.node {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    outline: 1px solid rgba(113, 184, 132, 0.8);
+    margin-bottom: -4px;
+    text-align: center;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+@keyframes changeToExplored {
+    from {background-color: white;}
+    to {background-color: rgba(227, 251, 224, 0.8);}
+}
+
+/*
+rgba(66, 253, 38, 0.8)
+rgba(227, 251, 224, 0.8)
+*/
+@keyframes showRoute {
+    from {background-color: rgba(227, 251, 224, 0.8);}
+    to {background-color: rgba(244, 237, 101, 0.8);}
+}
+.nodeStart {
+    background-color: rgba(90, 207, 76, 0.8);
+}
+
+.nodeFinish {
+
+    background-color: rgba(250, 31, 92, 0.8);
+}
+
+.nodeBlock {
+    background-color: rgba(43, 46, 43, 0.8);
+    outline: 1px solid rgba(31, 32, 31, 0.8);
+}
+
+.nodeExplored {
+    background-color: white;
+    animation-name: changeToExplored;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.nodeRoute {
+    background-color: rgba(227, 251, 224, 0.8);
+    animation-name: showRoute;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.weight {
+    position:absolute;
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.special-icon {
+    position:absolute;
+    transform: scale(1);
+}
+
+
+
