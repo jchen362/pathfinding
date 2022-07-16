@@ -1,3 +1,6 @@
+# Pathfinding Visualizer (Currently supports DFS, BFS, Dijistras)
+
+
 link to github pages for this project: https://jchen362.github.io/pathfinding/
 
 This project provides a visualizer for the following pathfinding algorithms: DFS, BFS, dijistras.
