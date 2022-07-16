@@ -9,7 +9,10 @@ I had trouble visualizing how these pathfinding algorithms explored each node so
 
 The controls are as follows (on the website, there is an info icon with the same information):
 
-Set start position: press s and click on desired position Set end posiiton: press e and click on desired position Add walls: click and drag Add weighted walls: select 1-9 (nodes have default weight of 1), and click and drag
+Set start position: press s and click on desired position 
+Set end posiiton: press e and click on desired position 
+Add walls: click and drag 
+Add weighted walls: select 1-9 (nodes have default weight of 1), and click and drag
 
 
 
